@@ -1,0 +1,18 @@
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Excepto plantilla de ejemplo
+!.env.example
+
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos Python
+__pycache__/
+*.py[cod]
+.pytest_cache
+
+# Archivos del editor
+.vscode/

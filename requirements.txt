@@ -1,0 +1,5 @@
+pip install requests
+python -m venv .venv
+python -m pip install fastapi "uvicorn[standard]"
+python -m pip install pytest
+python -m pip install sqlalchemy "psycopg[binary]"
